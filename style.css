@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Amazon Ember";
+    src: url(fonts/AmazonEmber_Lt.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --cor-background: #F9FBE7;
+    --cor-primaria: #FEA1A1;
+    --cor-secundaria: #ECCDB4;
+    --cor-terciaria: #F0EDD4;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Amazon Ember";
+}
+
+body {
+    font-size: 16px;
+}
+
+.header {
+    background-color: #ECCDB4;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    color: var(--cor-terciaria);
+}
+
+.links_box {
+    display: flex;
+    gap: 50px;
+}
+
+.header_img {
+    scale: 0.5;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 500px;
+    color: var(--cor-terciaria);
+}
+
+.footer_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+
+.carrossel__titulo {
+    font-size: 26px;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.carrossel{
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-item{
+    background-color: var(--cor-terciaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    height: 320px;
+    border-radius: 15px;
+}
+
+.aberto{
+    color: greenyellow;
+}
+
+.fechado{
+    color: red;
+}
+
+.finalscript{
+    text-align: center;
+    background-color: #d48585;
+    color: white;
+}
+
+.link-head{
+    text-decoration: none;
+    color: var(--cor-background);
+}
